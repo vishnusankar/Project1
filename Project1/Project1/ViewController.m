@@ -18,6 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     //Testing
+    NSString * str = [[NSString alloc] initWithString:@"tesin"];
+    NSLog(@"%@",str);
 }
 
 - (void)didReceiveMemoryWarning {
